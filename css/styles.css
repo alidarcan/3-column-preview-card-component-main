@@ -1,11 +1,4 @@
 /****************MAIN SELECTORS****************************/
-body {
-  width: 1440px;
-  height: 800px;
-  background-color: hsl(0, 0%, 95%);
-  font-family: 'Lexend Deca', sans-serif;
-}
-
 h1 {
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
@@ -16,57 +9,99 @@ h1 {
 p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 15px;
-  line-height: 2;
+  line-height: 1.75;
+  margin-bottom: 100px;
 }
 
 /******************CLASS SELECTORS************************/
+.background {
+  width: 1440px;
+  height: 800px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
 .cars {
-  display: flex;
+  height: 500px;
+  width: 900px;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  align-content: stretch;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: 270px;
 }
 
 .sedans {
-  height: 400px;
+  height: 410px;
   width: 210px;
   background-color: hsl(31, 77%, 52%);
   padding: 45px;
-  display: block;
 }
 
 .suvs {
-  height: 400px;
+  height: 410px;
   width: 210px;
   background-color: hsl(184, 100%, 22%);
   padding: 45px;
-  display: block;
 }
 
 .luxury {
-  height: 400px;
+  height: 410px;
   width: 210px;
   background-color: hsl(179, 100%, 13%);
   padding: 45px;
-  display: block;
 }
 
 /*******************BUTTONS**************************/
-.btn {
+.learn1 {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
-  color: #e38826;
-  font-size: 17px;
   background: #f2f2f2;
   padding: 12px 28px 12px 28px;
-  border: solid 	#f2f2f2 2px;
+  border: solid #f2f2f2 3px;
   text-decoration: none;
+  color: hsl(31, 77%, 52%);
 }
 
-.btn:hover {
+.learn1:hover {
   text-decoration: none;
+  background: Transparent;
+  color: white;
+}
+.learn2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  background: #f2f2f2;
+  padding: 12px 28px 12px 28px;
+  border: solid #f2f2f2 3px;
+  text-decoration: none;
+  color: hsl(184, 100%, 22%);
+}
+
+.learn2:hover {
+  text-decoration: none;
+  background: Transparent;
+  color: white;
+}
+.learn3 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  background: #f2f2f2;
+  padding: 12px 28px 12px 28px;
+  border: solid #f2f2f2 3px;
+  text-decoration: none;
+  color: hsl(179, 100%, 13%);
+}
+
+.learn3:hover {
+  text-decoration: none;
+  background: Transparent;
+  color: white;
 }
