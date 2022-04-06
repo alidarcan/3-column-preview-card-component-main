@@ -1,40 +1,72 @@
 /****************MAIN SELECTORS****************************/
 body {
   width: 1440px;
+  height: 800px;
   background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 h1 {
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  display: inline-grid;
+  font-size: 15px;
+  line-height: 2;
 }
 
 /******************CLASS SELECTORS************************/
+.cars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
 .sedans {
   height: 400px;
-  width: 200px;
+  width: 210px;
   background-color: hsl(31, 77%, 52%);
-  padding: 50px;
-  display: inline-table;
+  padding: 45px;
+  display: block;
 }
 
 .suvs {
   height: 400px;
-  width: 200px;
+  width: 210px;
   background-color: hsl(184, 100%, 22%);
-  padding: 50px;
-  display: inline-table;
+  padding: 45px;
+  display: block;
 }
 
 .luxury {
   height: 400px;
-  width: 200px;
+  width: 210px;
   background-color: hsl(179, 100%, 13%);
-  padding: 50px;
-  display: inline-table;
+  padding: 45px;
+  display: block;
+}
+
+/*******************BUTTONS**************************/
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #e38826;
+  font-size: 17px;
+  background: #f2f2f2;
+  padding: 12px 28px 12px 28px;
+  border: solid 	#f2f2f2 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
 }
